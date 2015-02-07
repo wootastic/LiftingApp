@@ -1,7 +1,16 @@
 <resources>
 
+    <!-- Globally used -->
     <string name="app_name">LiftingApp</string>
     <string name="banner_alt">LiftingApp</string>
     <string name="action_settings">Settings</string>
+    <string name="temp">temp</string>
+
+    <!-- WorkoutActivity (FooterView) -->
+    <string name="addWorkout">+</string>
+    <string name="finishWorkout">Finish Workout</string>
+
+    <!-- Workout Layout -->
+    <string name="int5">5</string>
 
 </resources>

@@ -1,8 +1,7 @@
 package com.baxter.LiftingApp;
 
-
-
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -26,7 +25,10 @@ public class MainActivity extends Activity {
 		newWorkoutBut.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				toast("new workout");
+				//Start a new workout
+				Intent intent = new Intent(MainActivity.this, WorkoutActivity.class);
+				startActivity(intent);
+				//TODO Check if a workout was already started for today.  In order to override or keep old.  
 			}
 
 		});
@@ -35,6 +37,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View view) {
 				toast("new temp 1");
+				//TODO add functionality
 			}
 
 		});
@@ -43,6 +46,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View view) {
 				toast("new temp 2");
+				//TODO add functionality
 			}
 
 		});
@@ -51,6 +55,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View view) {
 				toast("new temp 3");
+				//TODO add functionality
 			}
 
 		});
@@ -59,6 +64,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View view) {
 				toast("new temp 4");
+				//TODO add functionality
 			}
 
 		});

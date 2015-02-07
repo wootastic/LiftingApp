@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <Button
+        android:id="@+id/addWorkoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        style="android:attr/buttonBarButtonStyle"
+        android:text="@string/addWorkout" />
+
+    <Button
+        android:id="@+id/finishWorkoutButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        style="android:attr/buttonBarButtonStyle"
+        android:text="@string/finishWorkout" />
+
+</LinearLayout>
