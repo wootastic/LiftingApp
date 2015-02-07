@@ -1,7 +1,6 @@
-package com;
+package com.baxter.LiftingApp;
 
 
-import com.baxter.LiftingApp.R;
 
 import android.app.Activity;
 import android.os.Bundle;
